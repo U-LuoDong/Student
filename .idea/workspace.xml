@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fd2c782-220a-47ea-8b01-35dc262ed3ec" name="Default Changelist" comment="" />
+    <list default="true" id="7fd2c782-220a-47ea-8b01-35dc262ed3ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/application/admin/controller/AuthRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/controller/AuthRule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/admin/lst.htm" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/admin/lst.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/auth_group/lst.htm" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/auth_group/lst.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/auth_rule/lst.htm" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/auth_rule/lst.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/admin/view/info/lst.htm" beforeDir="false" afterPath="$PROJECT_DIR$/application/admin/view/info/lst.htm" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/application/admin/controller/Common.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="e#38#59#0#PHP" expanded="true" />
               </folding>
@@ -54,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/admin/view/public/left.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="129" column="62" lean-forward="true" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="62" />
+            <state relative-caret-position="152">
+              <caret line="118" column="21" lean-forward="true" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/admin/controller/AuthRule.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -66,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/static/admin/js/sign.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
+            <state relative-caret-position="1596">
               <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -162,6 +177,7 @@
         <option value="$PROJECT_DIR$/application/admin/view/login/index.htm" />
         <option value="$PROJECT_DIR$/application/admin/controller/Common.php" />
         <option value="$PROJECT_DIR$/application/admin/view/public/left.htm" />
+        <option value="$PROJECT_DIR$/application/admin/controller/AuthRule.php" />
       </list>
     </option>
   </component>
@@ -179,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,11 +330,12 @@
       <workItem from="1563100728903" duration="3430000" />
       <workItem from="1564916645570" duration="419000" />
       <workItem from="1564917197860" duration="186000" />
+      <workItem from="1565175421743" duration="67000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114919000" />
+    <option name="totallyTimeSpent" value="114986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +350,7 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37787515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37787515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -360,7 +377,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/websocket/controller/Index.php" />
     <entry file="file://$PROJECT_DIR$/application/command.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -618,9 +634,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#38#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/static/admin/js/sign.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
+        <state relative-caret-position="1596">
           <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -628,20 +654,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/controller/Common.php">
+    <entry file="file://$PROJECT_DIR$/application/admin/view/public/left.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#38#59#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="118" column="21" lean-forward="true" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/admin/view/public/left.htm">
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/AuthRule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="129" column="62" lean-forward="true" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="62" />
+        <state relative-caret-position="748">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
         </state>
       </provider>
     </entry>
